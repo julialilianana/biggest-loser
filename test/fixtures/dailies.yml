@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: 2020-08-28 15:36:04
+  weight: 1
+  waist_size: 1
+  bfp: 1
+  bmi: 1
+
+two:
+  name: MyString
+  date: 2020-08-28 15:36:04
+  weight: 1
+  waist_size: 1
+  bfp: 1
+  bmi: 1

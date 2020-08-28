@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @daily.name %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @daily.date %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @daily.weight %>
+</p>
+
+<p>
+  <strong>Waist size:</strong>
+  <%= @daily.waist_size %>
+</p>
+
+<p>
+  <strong>Bfp:</strong>
+  <%= @daily.bfp %>
+</p>
+
+<p>
+  <strong>Bmi:</strong>
+  <%= @daily.bmi %>
+</p>
+
+<%= link_to 'Edit', edit_daily_path(@daily) %> |
+<%= link_to 'Back', dailies_path %>
